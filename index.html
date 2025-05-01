@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merci pour votre achat - NextGen</title>
+    <title>Téléchargement du Guide du Footballeur - NextGen</title>
     <style>
         /* Styles cohérents avec votre site */
         body {
@@ -39,21 +39,42 @@
             border-radius: 4px;
             font-weight: bold;
             text-decoration: none;
-            margin-top: 1.5rem;
-            transition: background-color 0.3s;
+            margin: 1rem 0.5rem;
+            transition: all 0.3s;
         }
         .btn:hover {
             background-color: #005a9c;
+            transform: translateY(-2px);
         }
         .download-info {
-            margin-top: 2rem;
-            padding: 1rem;
+            margin: 2rem 0;
+            padding: 1.5rem;
             background-color: #f0f4f8;
-            border-radius: 4px;
+            border-radius: 8px;
+            border-left: 4px solid #0070ba;
         }
         .product-image {
             max-width: 200px;
             margin: 1rem auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .summary {
+            text-align: left;
+            margin: 2rem 0;
+            padding: 1rem;
+            background-color: #f8f8f8;
+            border-radius: 4px;
+        }
+        .summary h3 {
+            color: #0070ba;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5rem;
+        }
+        .contact-info {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #666;
         }
     </style>
 </head>
@@ -65,15 +86,28 @@
             
             <div class="download-info">
                 <h2>Guide Complet du Footballeur</h2>
-                <img src="guide_footballeur.png" alt="Guide du Footballeur" class="product-image">
+                <img src="guide_football.png" alt="Guide du Footballeur" class="product-image">
                 <p>Prix : 16,99€</p>
                 
                 <h3>Téléchargez votre ebook</h3>
-                <p>Votre ebook est disponible en téléchargement immédiat.</p>
-                <a href=https://s188.convertio.me/p/YmkAlG10YPqr94ryXvGT7Q/77c14f5929359bfd526b85fdc0bcb6dc/Ebook-Le-Guide-du-footballeur-_2_.html"btn">Télécharger le guide</a>
+                <p>Votre ebook est disponible en téléchargement immédiat au format PDF.</p>
+                <a href="Ebook-Le-Guide-du-footballeur-(2).pdf" download="NextGen-Guide-Complet-Footballeur.pdf" class="btn">
+                    <i class="fas fa-download"></i> Télécharger le guide
+                </a>
             </div>
 
-            <div style="margin-top: 2rem;">
+            <div class="summary">
+                <h3>Ce que contient votre guide :</h3>
+                <ul>
+                    <li><strong>Nutrition</strong> : Bases alimentaires, hydratation, encas de mi-temps</li>
+                    <li><strong>Musculation</strong> : 4 programmes adaptés (débutant à avancé)</li>
+                    <li><strong>Précision</strong> : Conduite de balle, contrôle, passes, dribbles</li>
+                    <li><strong>Programmes complets</strong> avec exercices détaillés</li>
+                    <li><strong>Conseils professionnels</strong> pour progresser rapidement</li>
+                </ul>
+            </div>
+
+            <div>
                 <h3>Besoin d'aide ?</h3>
                 <p>Contactez-nous à <a href="mailto:nextgencorp185@gmail.com">nextgencorp185@gmail.com</a></p>
             </div>
@@ -81,7 +115,11 @@
 
         <div style="margin-top: 2rem;">
             <a href="https://gsbr22.github.io/nextgen/" class="btn">Retour à l'accueil</a>
+            <a href="https://gsbr22.github.io/nextgen/moncompte.html" class="btn">Mon compte</a>
         </div>
     </div>
+
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </body>
 </html>
